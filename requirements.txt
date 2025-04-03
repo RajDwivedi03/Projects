@@ -1,0 +1,25 @@
+# Web Framework (Choose one based on your project)
+Flask               # If using Flask for the backend
+Django>=4.0,<5.0    # If using Django instead of Flask
+
+# Web Server
+gunicorn            # For running the web application in production
+
+# Machine Learning & Computer Vision Dependencies
+numpy               # Numerical operations
+opencv-python       # OpenCV for image processing
+mediapipe           # For hand gesture tracking in Air Canvas
+tensorflow          # If your ML project uses deep learning
+scikit-learn        # Machine learning library for student performance prediction
+flask               # If hosting ML models with Flask
+flask-cors          # For handling CORS in API requests
+pandas              # Data handling
+matplotlib          # Data visualization (if needed)
+
+# Database (If using SQL-based storage)
+psycopg2-binary     # PostgreSQL support (remove if not using PostgreSQL)
+mysqlclient         # MySQL support (remove if not using MySQL)
+
+# Static File Management
+whitenoise          # If using Django for serving static files
+pillow              # For handling images in Django
